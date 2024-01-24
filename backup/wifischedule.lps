@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Count="1" Active="Release">
+      <Item1 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="wifischedule"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <DebugInfoType Value="dsDwarf2Set"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+          </Linking>
+        </CompilerOptions>
+      </Item1>
+    </BuildModes>
+    <Units Count="19">
+      <Unit0>
+        <Filename Value="wifischedule.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="530"/>
+        <CursorPos X="26" Y="548"/>
+        <UsageCount Value="64"/>
+        <Bookmarks Count="2">
+          <Item0 X="22" Y="886" ID="2"/>
+          <Item1 X="24" Y="548" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="wifiutils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="WiFiUtils"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="228"/>
+        <CursorPos X="3" Y="251"/>
+        <UsageCount Value="64"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../Wifi Controller GUI/unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="23"/>
+        <CursorPos X="7" Y="30"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/rtl-console/src/inc/crth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="71"/>
+        <CursorPos X="25" Y="91"/>
+        <UsageCount Value="8"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/packages/rtl-console/src/unix/crt.pp"/>
+        <UnitName Value="Crt"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="24"/>
+        <UsageCount Value="16"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../Libraries/Codrut Library Pack/Cod.Console.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="39"/>
+        <CursorPos X="22" Y="55"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../Libraries/Codrut Library Pack/Cod.Types.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="380"/>
+        <CursorPos Y="382"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/packages/rtl-console/src/inc/crth.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="13"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="730"/>
+        <CursorPos X="3" Y="747"/>
+        <UsageCount Value="7"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/inc/typshrdh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="3" Y="38"/>
+        <UsageCount Value="7"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../Libraries/Codrut Library Pack/Cod.ArrayHelpers.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="5" Y="36"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/objpas/sysutils/syshelph.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="5"/>
+        <UsageCount Value="8"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/packages/rtl-objpas/src/inc/dateutil.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="729"/>
+        <CursorPos X="3" Y="735"/>
+        <UsageCount Value="8"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../Libraries/Codrut Library Pack/Cod.ConsoleDialogs.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="593"/>
+        <CursorPos X="6" Y="592"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="59"/>
+        <CursorPos X="8" Y="76"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/packages/amunits/src/coreunits/clipboard.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="44"/>
+        <CursorPos X="17" Y="16"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../Libraries/Codrut Library Pack/Cod.CRT.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="10"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../Libraries/Codrut Library Pack/crth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="41"/>
+        <CursorPos X="14" Y="78"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/objpas/objpas.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="8" Y="46"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="79" TopLine="68"/>
+      </Position1>
+      <Position2>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="80" TopLine="68"/>
+      </Position2>
+      <Position3>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="85" TopLine="68"/>
+      </Position3>
+      <Position4>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="75" TopLine="68"/>
+      </Position4>
+      <Position5>
+        <Filename Value="wifischedule.pas"/>
+        <Caret Line="890" Column="12" TopLine="872"/>
+      </Position5>
+      <Position6>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="17" Column="13"/>
+      </Position6>
+      <Position7>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="128" Column="3" TopLine="123"/>
+      </Position7>
+      <Position8>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="10" Column="12"/>
+      </Position8>
+      <Position9>
+        <Filename Value="wifischedule.pas"/>
+        <Caret Line="890" Column="12" TopLine="872"/>
+      </Position9>
+      <Position10>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="17" Column="13"/>
+      </Position10>
+      <Position11>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="130" Column="13" TopLine="123"/>
+      </Position11>
+      <Position12>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="32" Column="12" TopLine="15"/>
+      </Position12>
+      <Position13>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="251" Column="3" TopLine="236"/>
+      </Position13>
+      <Position14>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="123" Column="15"/>
+      </Position14>
+      <Position15>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="130" Column="13" TopLine="110"/>
+      </Position15>
+      <Position16>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="10" Column="12"/>
+      </Position16>
+      <Position17>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="74" Column="3" TopLine="68"/>
+      </Position17>
+      <Position18>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="10" Column="12" TopLine="28"/>
+      </Position18>
+      <Position19>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="129" Column="19" TopLine="113"/>
+      </Position19>
+      <Position20>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="48" Column="24" TopLine="35"/>
+      </Position20>
+      <Position21>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="49" Column="10" TopLine="35"/>
+      </Position21>
+      <Position22>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="251" Column="20" TopLine="223"/>
+      </Position22>
+      <Position23>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="256" Column="20" TopLine="228"/>
+      </Position23>
+      <Position24>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="129" TopLine="113"/>
+      </Position24>
+      <Position25>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="32" Column="12" TopLine="15"/>
+      </Position25>
+      <Position26>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="251" TopLine="236"/>
+      </Position26>
+      <Position27>
+        <Filename Value="wifischedule.pas"/>
+        <Caret Line="890" Column="12" TopLine="890"/>
+      </Position27>
+      <Position28>
+        <Filename Value="wifiutils.pas"/>
+        <Caret Line="251" Column="3" TopLine="228"/>
+      </Position28>
+      <Position29>
+        <Filename Value="wifischedule.pas"/>
+        <Caret Line="886" Column="22" TopLine="869"/>
+      </Position29>
+      <Position30>
+        <Filename Value="wifischedule.pas"/>
+        <Caret Line="857" Column="16" TopLine="840"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1" ActiveMode="default">
+        <Mode0 Name="default">
+          <local>
+            <CommandLineParams Value="-u"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+    <HistoryLists Count="3">
+      <List0 Name="LaunchingApplication" Type="File" Count="2">
+        <Item2 Value="/usr/bin/gnome-terminal -t &apos;Lazarus Run Output&apos; -e &apos;$(LazarusDir)/tools/runwait.sh $(TargetCmdLine)&apos;"/>
+      </List0>
+      <List1 Name="CommandLineParameters" Count="3">
+        <Item1 Value="-u"/>
+        <Item2 Value="--help"/>
+        <Item3 Value="-u -f deez.ini"/>
+      </List1>
+      <List2 Name="WorkingDirectory" Type="File" Count="1"/>
+    </HistoryLists>
+  </ProjectSession>
+</CONFIG>
