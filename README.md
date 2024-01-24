@@ -4,20 +4,20 @@ WiFi scheduler is a application which lets you schedule your router's WiFi on ti
 ## Supported routers
 - Mercusys AC12G
 
-# Features
+## Features
 - WiFi schedule based on hours, days
 - Multiple configuration files for more networks
 - Multiple WiFi frequency selector, for routers with more than one band
 - Visual console UI
 
-# Cron configuration line
+## Cron configuration line
 ```
 0 * * * * /home/user/Documents/wifischedule -f /home/user/Documents/Schedules/schedule.ini -u
 ```
 Replace user with your actual username.
 NOTE: You can place the executable wherever you like, and the same is for the schedule file. But make sure the user running the schedule has read access to the schedule!
 
-# Parameters
+## Parameters
 | Parameter  | Description |
 | ------------- | ------------- |
 | -f <filepath or --report-file <filepath>  | Specify schedule file name |
@@ -29,5 +29,10 @@ NOTE: You can place the executable wherever you like, and the same is for the sc
 
 If you do not provide a report file path, the application will choose the default path for you, being `./wificonfig.ini`.
 
+## Compilation
+If you would like to compile the application by yourself, install Lazarus and don't forget to add the Dependencies folder in the unit search path.
+You will also need Indy Internet Direct for Lazarus. The libssl binaries are not required for this release.
+
+## Pictures
 ![Screenshot from 2024-01-24 10-01-07](https://github.com/Codrax/Wifi-Scheduler/assets/68193064/f5e3f5d3-b3c4-473d-91bf-fb11d87731b2)
 ![Screenshot from 2024-01-24 10-01-12](https://github.com/Codrax/Wifi-Scheduler/assets/68193064/48ac000f-22fd-459e-aa00-062766136a91)
