@@ -34,14 +34,14 @@
         <Filename Value="wifischedule.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="530"/>
-        <CursorPos X="73" Y="539"/>
+        <TopLine Value="266"/>
+        <CursorPos X="4" Y="283"/>
         <UsageCount Value="64"/>
         <Bookmarks Count="2">
-          <Item0 X="22" Y="886" ID="2"/>
-          <Item1 X="24" Y="548" ID="1"/>
+          <Item0 X="22" Y="887" ID="2"/>
+          <Item1 X="24" Y="549" ID="1"/>
         </Bookmarks>
+        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="wifiutils.pas"/>
@@ -172,7 +172,12 @@
         <UsageCount Value="10"/>
       </Unit18>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="wifischedule.pas"/>
+        <Caret Line="539" Column="73" TopLine="530"/>
+      </Position1>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="1" ActiveMode="default">
@@ -183,7 +188,7 @@
         </Mode0>
       </Modes>
     </RunParams>
-    <HistoryLists Count="3">
+    <HistoryLists Count="2">
       <List0 Name="LaunchingApplication" Type="File" Count="1">
         <Item1 Value="/usr/bin/gnome-terminal -t &apos;Lazarus Run Output&apos; -e &apos;$(LazarusDir)/tools/runwait.sh $(TargetCmdLine)&apos;"/>
       </List0>

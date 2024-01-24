@@ -289,6 +289,7 @@ begin
     4: Exit('FRIDAY');
     5: Exit('SATURDAY');
     6: Exit('SUNDAY');
+    else Exit('Unknown');
   end;
 end;
 

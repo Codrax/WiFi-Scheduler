@@ -545,7 +545,7 @@ begin
                       Domain := 'http://' + DOMAIN;
                 end;
                 1: begin
-                  S := PASSWORD;
+                  S := '';
                   if TQuickDialog.Input('New Password', 'Enter the new router password', S) then
                     PASSWORD := S;
                 end;
